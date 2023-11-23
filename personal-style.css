@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Titan One', sans-serif;
+    color: rgb(89,136,255);
+    font-size: xxx-large;
+    
+}
+
+h2, h3{
+    font-family: 'Titan One', sans-serif;
+    color:rgb(89,136,255);
+    font-size: xxx-large;
+    
+
+}
+
+h4, h5{
+    
+    color:rgb(89,136,255);
+    font-size: xx-large;
+}
+
+.blue-bg{
+    color: white;
+    background: rgb(89,136,255);
+    background: linear-gradient(90deg, rgba(89,136,255,1) 0%, rgba(89,136,255,1) 50%, rgba(0,67,240,1) 100%);
+    
+}
+
+.white-bg{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(234,240,255,1) 100%);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.landing{
+    align-items: center;
+    justify-content: space-between; 
+    
+
+}
+
+.landing > div, img{
+    width: 50vw;
+}
+
+.landing > img{
+    position: relative;
+    bottom: 0;
+}
+
+#menu{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    right: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu a{
+    color:rgba(89,136,255,1);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+#landing{
+    min-height: 100vh;
+}
+
+#intro{
+    min-height: 50vh;
+}
+
+#skills{
+    min-height: 50vh;
+    color:white;
+
+}
+
+#skills h1{
+    color:white;
+    font-family: Titan One;
+    text-align: center;
+    padding-top: 48px;
+    font-size: xxx-large;
+
+}
+
+#footer{
+    height: 250px;
+ }
+
+
+
+.footer-imprint{
+
+}
+
+
+.footer-links{
+    display: flex;
+
+}
+.footer-links > a{
+padding: 16px;
+}
+
+
+.send-message-btn{
+border-radius: 10px;
+border: 1px solid #5988FF;
+padding: 10px 30px;
+background-color: white;
+color:#5988FF;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+.send-message-btn:hover{
+    background: var(--style-2-style-2-blue-gr, radial-gradient(91.12% 91.12% at 19.79% 22.42%, #5988FF 6.25%, #5988FF 51.56%, #0043F0 100%));
+font-weight: 600;
+color: white;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+
+}
+.intro div{
+    width: 50vw;
+    padding:16px;
+ 
+
+}
+
+
+#projects, #contact, #landing, #intro{
+    padding: 16px;
+   
+
+}
+
+.contact-form{
+    border-radius: 10px;
+border: 1px solid #5988FF;
+padding: 7px 30px;
+background-color: white;
+color:#5988FF;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+margin: 4px;
+width: 35vw;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 
